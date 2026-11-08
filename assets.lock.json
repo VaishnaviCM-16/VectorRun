@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "groups": {
+    "models": {
+      "name": "Models",
+      "order": 10
+    },
+    "share": {
+      "name": "Share",
+      "order": 20
+    }
+  },
+  "bundles": {},
+  "assets": {
+    "assets/models/vector_car.glb": {
+      "path": "/manus-storage/game/sha256/7d6c344f6b5855f6aff42c4f647db5d8483aa2b3b193bf3c9e3bf45a80089ca1.glb",
+      "sha256": "sha256:7d6c344f6b5855f6aff42c4f647db5d8483aa2b3b193bf3c9e3bf45a80089ca1",
+      "size": 910288,
+      "assetType": "model",
+      "groupId": "models"
+    },
+    "assets/share/favicon.png": {
+      "path": "/manus-storage/game/sha256/cc19c0a8fec5c368d807f63bcac4e28911397f75fce34c650fa0bc2d963b867d.png",
+      "sha256": "sha256:cc19c0a8fec5c368d807f63bcac4e28911397f75fce34c650fa0bc2d963b867d",
+      "size": 2115,
+      "assetType": "image",
+      "groupId": "share"
+    }
+  }
+}

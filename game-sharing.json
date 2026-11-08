@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "title": "VECTOR//RUN",
+  "description": "Start at zero. Pick a car, choose a line, and race four local rivals across branching neon circuits.",
+  "assets": {
+    "favicon": "assets/share/favicon.png"
+  }
+}
