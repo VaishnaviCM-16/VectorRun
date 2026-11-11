@@ -53,16 +53,6 @@ The app runs in a WebGL-capable browser. `pnpm smoke` runs the Playwright deskto
 
 Pull requests and pushes to `main` run GitHub Actions for type-checking, unit tests and the size-checked source build.
 
-## Download the whole project
-
-Create a single source ZIP from the project root:
-
-```bash
-pnpm source:zip
-```
-
-The default output is `../vectorun-source.zip`. To choose another destination, pass it after the command, for example `pnpm source:zip ~/Downloads/vectorun-source.zip`. The archive contains the source, tests, scripts, configuration, documentation, lockfiles, registered asset manifest and the local VXR model/favicon bytes. It omits `.git` history, installed `node_modules`, generated `dist`, temporary screenshots, logs and environment secrets. Install dependencies after extracting; the ZIP is a source project, not a built game binary.
-
 ## Project map
 
 | Path | Responsibility |
@@ -79,4 +69,5 @@ The default output is `../vectorun-source.zip`. To choose another destination, p
 | `scripts/package-source.mjs` | Reproducible, secret-safe source ZIP builder |
 | `tests/`, `scripts/smoke.mjs` | Rules, save, course, car, rival and browser interaction coverage |
 
+## License
 The VXR is the registered GLB vehicle; the additional car styles and rival bodies use project-owned Three.js geometry. The soundtrack and race cues are synthesized locally. Three.js is MIT-licensed; the bundled ManusCC0 fonts are CC0 1.0.
